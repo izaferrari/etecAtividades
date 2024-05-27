@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="IMG/logoDS.png" type="image/x-icon">
     <title>>GEEAD – Técnico em Desenvolvimento de Sistemas</title>
+    <script src="slideshow.js" defer></script>
+    
 </head>
 
 <body class="w3-black">
@@ -17,11 +19,11 @@
             <i class="fa fa-home w3-xxlarge"></i>
             <p>HOME</p>
             <!-- Sobre -->
-             <a href="#sobre"
+            <a href="#sobre"
                 class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white"> <i
                     class="fa fa-user w3-xxlarge"></i>
                 <p>SOBRE</p>
-            </a> <!-- Grade Curricular --> 
+            </a> <!-- Grade Curricular -->
             <a href="#gradeC"
                 class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white"> <i
                     class="fa fa-columns w3-xxlarge"></i>
@@ -33,20 +35,20 @@
                     class="fa fa-connectdevelop w3-xxlarge "></i>
                 <p>DOCENTES</p>
             </a>
-             <!-- Mercado de Trabalho -->
-             <a href="#mercado"
+            <!-- Mercado de Trabalho -->
+            <a href="#mercado"
                 class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white"> <i
                     class="fa fa-handshake-o w3-xxlarge"></i>
                 <p>MERCADO DE TRABALHO</p>
-            </a> 
-            <!-- Tecnologias --> 
+            </a>
+            <!-- Tecnologias -->
             <a href="#tecnologias"
                 class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white"> <i
                     class="fa fa-connectdevelop w3-xxlarge "></i>
                 <p>TECNOLOGIAS</p>
             </a>
             <!-- Contato -->
-             <a href="#contato"
+            <a href="#contato"
                 class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white"> <i
                     class="fa fa-envelope w3-xxlarge"></i>
                 <p>CONTATO</p>
@@ -61,17 +63,19 @@
             <a href="#contato" class="w3-bar-item w3-button" style="width:20%">CONTATO</a>
         </nav>
     </div>
-    
+
     <div class="w3-padding-large" id="main">
-        <header class="w3-container w3-padding-64 w3-center" id="home" style="background-image: url('caminho/para/imagem_de_fundo.jpg'); background-size: cover; background-position: center;">
+        <header class="w3-container w3-padding-64 w3-center" id="home"
+            style="background-image: url('caminho/para/imagem_de_fundo.jpg'); background-size: cover; background-position: center;">
             <div class="w3-content" style="background-color: rgba(0, 0, 0, 0.5); padding: 20px;">
                 <img src="IMG/logoCab.png" alt="Logo" class="logo" style="width: 30%; height: auto;">
-                <h1 style="color: #00FFFF; font-size: 40px; margin-top: 20px;">Desenvolvimento de <span style="color: #00FFFF;">Sistemas</span></h1>
+                <h1 style="color: #00FFFF; font-size: 40px; margin-top: 20px;">Desenvolvimento de <span
+                        style="color: #00FFFF;">Sistemas</span></h1>
                 <p style="color: #FFFFFF; font-size: 20px; margin-top: 20px;">Aprenda mais, seja ETEC.</p>
             </div>
         </header>
     </div>
-    
+
     <div class="w3-content w3-padding-64" id="sobre">
         <h2 class="w3-text-cyan">Sobre o Curso</h2>
         <hr style="width:200px" class="w3-opacity">
@@ -141,33 +145,43 @@
             </div>
         </div>
     </div>
-    <div class="w3-content w3-padding-64" id="docentes">
-        <h2 class="w3-text-cyan">Docentes</h2>
-        <hr style="width:200px" class="w3-opacity">
-        <div class="w3-row-padding">
+    
+<div class="w3-content w3-padding-64" id="docentes">
+    <h2 class="w3-text-cyan">Docentes</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="slideshow-container">
+
+        <div class="mySlides">
             <div class="w3-half w3-padding">
                 <img src="IMG/female-user-icon.svg" alt="Docente 1" style="width:50%">
             </div>
             <div class="w3-half w3-padding">
                 <h1 style="color: #00FFFF;">Luana Aparecida</h1>
-                <h3 style="color: #00FFFF;">Formação Acadêmica: </h3>
+                <h3 style="color: #00FFFF;">Formação Acadêmica:</h3>
                 <p style="color: #ffffff;">Graduação em Ciência da Computação pela Universidade Federal de São Paulo (UNIFESP).</p>
-                <h3 style="color: #00FFFF;">Atuaçao Profissional:</h3>
-                <p style="color: #ffffff;"> Trabalhou como desenvolvedor de software em uma empresa de tecnologia por 5 anos, especializado em desenvolvimento web e mobile.</p>
+                <h3 style="color: #00FFFF;">Atuação Profissional:</h3>
+                <p style="color: #ffffff;">Trabalhou como desenvolvedora de software em uma empresa de tecnologia por 5 anos, especializado em desenvolvimento web e mobile.</p>
             </div>
+        </div>
+
+        <div class="mySlides">
             <div class="w3-half w3-padding">
                 <img src="IMG/female-user-icon.svg" alt="Docente 2" style="width:50%">
             </div>
             <div class="w3-half w3-padding">
                 <h1 style="color: #00FFFF;">Verena dos Santos</h1>
-                <h3 style="color: #00FFFF;">Formação Acadêmica:</h2>
+                <h3 style="color: #00FFFF;">Formação Acadêmica:</h3>
                 <p style="color: #ffffff;">Mestrado em Engenharia de Software pela Universidade Estadual de Campinas (UNICAMP).</p>
-                <h2 style="color: #00FFFF;">Atuaçao Profissional:</h3>
-                <p style="color: #ffffff;"> Experiência como consultor de TI em diversas empresas, focado em soluções de segurança da informação e análise de dados.</p>
+                <h3 style="color: #00FFFF;">Atuação Profissional:</h3>
+                <p style="color: #ffffff;">Experiência como consultora de TI em diversas empresas, focada em soluções de segurança da informação e análise de dados.</p>
             </div>
         </div>
-        
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+</div>
+   
     <div class="w3-padding-64 w3-content w3-" id="mercado">
         <h2 class="w3-text-cyan">Mercado de Trabalho</h2>
         <hr style="width:200px" class="w3-opacity">
