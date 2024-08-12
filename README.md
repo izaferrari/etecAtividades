@@ -1,6 +1,6 @@
 # Curso Técnico em Desenvolvimento de Sistemas
 
-## Módulo I (primeiro semestre): AUXILIAR DE DESENVOLVIMENTO DE SISTEMAS
+## Módulo I (primeiro semestre): AUXILIAR DE DESENVOLVIMENTO DE SISTEMAS
 
 ### Habilidades e Competências
 
@@ -71,3 +71,4 @@
 - **SQL Server:** Comandos e gerenciamento de banco de dados.
 - **Protocolos de Comunicação:** Modelos de redes, endereçamento IP, firewall.
 - **Desenvolvimento Web:** Protocolos HTTP, segurança e criptografia.
+
