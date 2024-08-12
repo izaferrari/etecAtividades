@@ -1,6 +1,6 @@
 # Curso Técnico em Desenvolvimento de Sistemas
 
-## Módulo I: AUXILIAR DE DESENVOLVIMENTO DE SISTEMAS
+## Módulo I (primeiro semestre): AUXILIAR DE DESENVOLVIMENTO DE SISTEMAS
 
 ### Habilidades e Competências
 
