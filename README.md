@@ -18,8 +18,6 @@
 - **Ferramentas**: Utilização de IDEs, editores de código, e ferramentas para versionamento e depuração.
 - **Versionamento**: Controle de versão com Git e práticas de colaboração em projetos.
 
-# README - Curso Técnico em Desenvolvimento de Sistemas
-
 ## Módulo II (segundo semestre): PROGRAMADOR DE COMPUTADORES
 
 ### 1. Programação e Ambientes de Desenvolvimento
