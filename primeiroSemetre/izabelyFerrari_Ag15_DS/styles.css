@@ -1,0 +1,32 @@
+.w3-sidebar {
+     width: 140px; background: #222;
+     } 
+
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif
+} 
+
+#main {margin-left: 120px;} 
+@media only screen and (max-width: 600px) {#main {margin-left: 0}} 
+
+
+.logo {
+    max-width: 60%; 
+    height: auto; 
+}
+
+.header-text {
+    font-size: 48px; 
+    color: #00FFFF; 
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .logo {
+        max-width: 100%; 
+    }
+
+    .header-text {
+        font-size: 24px;
+    }
+}
