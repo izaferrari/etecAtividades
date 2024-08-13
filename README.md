@@ -67,7 +67,7 @@
 #### 3.3 Metodologias Ágeis
 - Aplicar Scrum para desenvolvimento de projetos e definir cronogramas.
 
-## Recursos e Ferramentas
+### Recursos e Ferramentas
 - **SQL Server:** Comandos e gerenciamento de banco de dados.
 - **Protocolos de Comunicação:** Modelos de redes, endereçamento IP, firewall.
 - **Desenvolvimento Web:** Protocolos HTTP, segurança e criptografia.
